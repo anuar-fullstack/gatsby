@@ -1,0 +1,237 @@
+// Use cases
+
+.usecases_header {
+  padding: 85px 0 90px 0;
+
+  &__title {
+    width: 590px;
+    max-width: 100%;
+    margin: 0 auto 53px auto;
+    text-align: center;
+
+    .title {
+      color: #000000;
+      font-size: 40px;
+      font-weight: 400;
+    }
+  }
+
+  &__img {
+    margin-bottom: 50px;
+    text-align: center;
+
+    img {
+      width: 850px;
+    }
+  }
+
+  &__text {
+    width: 560px;
+    max-width: 100%;
+    margin: 0 auto 50px auto;
+    text-align: center;
+
+    p {
+      color: #333333;
+      font-size: 19px;
+      font-weight: 300;
+    }
+  }
+
+  &__form {
+    form {
+      margin: 0 auto 17px auto;
+    }
+  }
+
+  &__link {
+    text-align: center;
+
+    p {
+      color: #000000;
+      font-size: 13px;
+      font-weight: 300;
+
+      a {
+        position: relative;
+
+        &:before {
+          position: absolute;
+          bottom: -2px;
+          left: 5px;
+          content: "";
+          width: 100%;
+          height: 1px;
+          background-color: $color_blue;
+        }
+      }
+    }
+  }
+}
+
+// Use cases
+
+.usecases_text {
+  padding-bottom: 40px;
+
+  ul {
+    width: 650px;
+    max-width: 100%;
+    margin: 0 auto;
+
+    li {
+      margin-bottom: 45px;
+
+      ul {
+        li {
+          list-style: disc;
+          margin-bottom: 10px;
+        }
+      }
+
+      h3 {
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin: 0 0 10px 0;
+      }
+    }
+  }
+}
+
+// Usecases questions
+
+.usecases_questions {
+  padding: 40px 0 40px 0;
+}
+
+.usecases_questions_item {
+  width: 490px;
+  max-width: 100%;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  padding: 30px 50px 40px 50px;
+  text-align: center;
+
+  &__title {
+    margin-bottom: 25px;
+
+    .title {
+      color: #333333;
+      font-size: 29px;
+      font-weight: 400;
+    }
+  }
+
+  &__text {
+    p {
+      color: #333333;
+      font-size: 19px;
+      font-weight: 300;
+      letter-spacing: 0.47px;
+    }
+  }
+}
+
+.usecases_questions_info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 490px;
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 35px 25px;
+  background-image: linear-gradient(45deg, #0694ea 0%, #0694ea 1.24647%, #9dc137 99.5069%, #9dc137 100%);
+
+  &__avatar {
+    width: 83px;
+    margin-right: 23px;
+  }
+
+  &__about {
+    width: 225px;
+    max-width: 100%;
+
+    .title {
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0.3px;
+    }
+
+    a {
+      display: block;
+      color: #ffffff;
+      font-size: 12px;
+      font-weight: 300;
+      letter-spacing: 0.3px;
+      transition: 0.3s;
+
+      &:hover {
+        transition: 0.3s;
+        color: #000;
+      }
+    }
+  }
+
+  &__btn {
+    a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 20px;
+      width: 107px;
+      height: 39px;
+      background-color: #fff;
+      color: #000000;
+      font-size: 12px;
+      font-weight: 400;
+      transition: 0.3s;
+
+      &:hover {
+        transition: 0.3s;
+        color: $color_blue;
+      }
+    }
+  }
+}
+
+// Usecases features
+
+.usecases_features {
+  padding: 80px 0 40px 0;
+
+  &__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.usecases_features_item {
+  width: 260px;
+  max-width: 100%;
+  margin: 0 0 50px 0;
+
+  img {
+    margin-bottom: 25px;
+    height: 130px;
+  }
+
+  .title {
+    color: #000000;
+    font-size: 23px;
+    font-weight: 400;
+    letter-spacing: 1.13px;
+    margin-bottom: 13px;
+    border-bottom: 1px solid $color_blue;
+  }
+
+  p {
+    color: #676767;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.37px;
+  }
+}

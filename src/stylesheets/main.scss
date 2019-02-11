@@ -1,0 +1,31 @@
+//utils
+@import 
+  'utils/functions',
+  'utils/mixins',
+  'utils/variables';
+
+//base
+@import 
+  'base/base',
+  'base/fonts',
+  'base/typography';
+
+//layout
+@import
+  'layout/header',
+  'layout/footer';
+
+  //pages
+@import 
+  'pages/about',
+  'pages/contacts',
+  'pages/fonts',
+  'pages/home',
+  'pages/it-managers',
+  'pages/main',
+  'pages/media',
+  'pages/pricing-v2',
+  'pages/product-1',
+  'pages/product-2',
+  'pages/usecases';
+
