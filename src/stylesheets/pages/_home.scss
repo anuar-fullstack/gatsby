@@ -16,7 +16,9 @@
     flex-wrap: wrap;
   }
 }
-
+.home_features__block {
+    flex-basis: 80%;
+}
 .home_header_item {
   &:first-child {
     width: 410px;

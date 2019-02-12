@@ -3,6 +3,8 @@ import React from 'react';
 import favicon from './images/favicon.png'
 import Header from './components/header'
 import Footer from './components/footer'
+import Contact from './components/contact'
+
 export default class HTML extends React.Component {
   render() {
     return (
@@ -27,6 +29,7 @@ export default class HTML extends React.Component {
             dangerouslySetInnerHTML={{ __html: this.props.body }}
           />
           {this.props.postBodyComponents}
+       
           <Footer />
         </body>
       </html>
